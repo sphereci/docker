@@ -1,0 +1,14 @@
+version: "2"
+services:
+  vagrant:
+#    build:
+#      context: builds/vagrant
+    image: ssh_image3
+    ports:
+      - 80:80
+      - 1080:1080
+      - 443:443
+    expose:
+      - 22
+    volumes:
+      - .:/var/www

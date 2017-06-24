@@ -1,0 +1,11 @@
+{
+    "name": "sphereshci/docker",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Spheresh",
+            "email": "spheresh@gmail.com"
+        }
+    ],
+    "require": {}
+}
